@@ -1,0 +1,122 @@
+*{
+    font-family: 'inter';
+}
+
+.textoinformacional strong {
+    font-size: 20px;
+}
+#titulo-menusuperior{
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+#texto-menusuperior{
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+#menusuperior{
+    background-color: #303030;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+}
+
+#menuinformacional{
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 401px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformacional{
+    color: #000000;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+#seçãoimagem{
+    background-color: #f9f9f9;
+    position: absolute;
+    width: 100%;
+    height: 705px;
+    left: 0px;
+    top: 502px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem{
+    margin: 50px 25px 50px 100px;
+}
+
+#titulo-seçãoimagem{
+    margin: 280px 50px 5px 50px;
+}
+
+#texto-seçãoimagem{
+    margin: 25px 50px 200px 50px;
+}
+
+#formulario{
+    background: #303030;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 1206px;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    width: 250px;
+    height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.3s;
+}
