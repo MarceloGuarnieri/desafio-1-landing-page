@@ -8,7 +8,7 @@
 #titulo-menusuperior{
     color: #FFFFFF;
     margin-left: 100px;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 #texto-menusuperior{
@@ -21,7 +21,7 @@
     background-color: #303030;
     position: absolute;
     width: 100%;
-    height: 400px;
+    height: 350px;
     left: 0px;
     top: 0px;
 }
@@ -30,9 +30,9 @@
     background-color: #f0f0f0;
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 120px;
     left: 0px;
-    top: 401px;
+    top: 351px;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
@@ -41,16 +41,16 @@
 .textoinformacional{
     color: #000000;
     margin-left: 20%;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 #seçãoimagem{
     background-color: #f9f9f9;
     position: absolute;
     width: 100%;
-    height: 705px;
+    height: 600px;
     left: 0px;
-    top: 502px;
+    top: 472px;
     display: grid;
     grid-template-columns: auto auto;
     align-items: flex-start;
@@ -66,11 +66,11 @@
 }
 
 #titulo-seçãoimagem{
-    margin: 280px 50px 5px 50px;
+    margin: 280px 0px 5px 50px;
 }
 
 #texto-seçãoimagem{
-    margin: 25px 50px 200px 50px;
+    margin: 25px 0px 200px 50px;
 }
 
 #formulario{
@@ -78,15 +78,15 @@
     text-align: center;
     position: absolute;
     width: 100%;
-    height: 500px;
+    height: 400px;
     left: 0px;
-    top: 1206px;
+    top: 1178px;
 }
 
 #titulo-formulario{
     font-size: 25px;
     color: #FFFFFF;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 input{
